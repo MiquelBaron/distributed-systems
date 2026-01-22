@@ -17,7 +17,7 @@ spec:
       containers:
       - name: django
         image: django-backend:latest
-        imagePullPolicy: Never 
+        imagePullPolicy: IfNotPresent 
         ports:
         - containerPort: 8000
         env:
